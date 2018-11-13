@@ -1,7 +1,6 @@
 #include "clase_caini.h"
 
 void Caine::get_details(){
-    char delimiter = '\n';
     cout << "Name of the dog is: ";
     cin >> name;
     cout << "It's hight is: ";

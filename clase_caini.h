@@ -8,11 +8,11 @@ using namespace std;
 
 class Caine{
 public:
-    char name[15];
+    string name;
     int hight;
     int weight;
     int age;
-    char color[10];
+    string color;
 
     void get_details();
     void display();
