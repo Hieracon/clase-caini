@@ -13,7 +13,7 @@ void Caine::get_details(){
     cin >> color;
 }
 
-void Caine::display(){
+void Caine::display() const{
     cout << "Dog's name is: " << name << endl;
     cout << "It's hight is: " << hight << endl;
     cout << "It's weight is: " <<weight << endl;

@@ -7,21 +7,23 @@
 using namespace std;
 
 class Caine{
-public:
+private:
     string name;
     int hight;
     int weight;
     int age;
     string color;
 
+public:
     void get_details();
-    void display();
+    void display() const;
 };
 
 class CaineCuPete:public Caine{
-public:
+private:
     int nr_spots;
 
+public:
     void spots();
 };
 
